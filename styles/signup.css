@@ -1,0 +1,147 @@
+/* signup form */
+.signup .modal-header {
+  margin-bottom: 80px;
+}
+
+.signup .form {
+  padding-left: 5%;
+}
+.signup .heading {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #222329;
+  margin-bottom: 40px;
+}
+.signup .auth_btn {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 49px;
+}
+.signup .auth_btn button {
+  background-color: transparent;
+  border: 1px solid #e85342;
+  border-radius: 8px;
+  width: 100%;
+  padding-top: 11.5px;
+  padding-bottom: 11.5px;
+}
+.signup .desc {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #a3a3a5;
+  position: relative;
+  margin-bottom: 40px;
+}
+.signup form label {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #222329;
+}
+.signup form input {
+  border: 1px solid #a3a3a5;
+  border-radius: 8px;
+  padding: 12px 16px;
+}
+.signup form input:focus {
+  border: 1px solid #016a78;
+  color: #016a78;
+  box-shadow: none;
+}
+.signup form input:focus::placeholder {
+  color: #016a78;
+  box-shadow: none;
+}
+.signup form input.error {
+  border: 1px solid #b00020;
+}
+
+.signup form .termsCondition {
+  margin: 40px auto;
+}
+.signup form .termsCondition label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #222329;
+}
+.signup form .termsCondition label a {
+  color: var(--Primary);
+}
+.signup form button.btn {
+  background: #e85342;
+  border-radius: 8px;
+  padding: 11.5px 55px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 24px;
+  border: 0;
+}
+.signup form .resend {
+  background-color: transparent !important;
+  color: #016a78 !important;
+}
+.signup form .auth_page_link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #222329;
+}
+.signup form .auth_page_link a {
+  color: var(--Primary);
+}
+.signup form .toggle_pass {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 16px;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+.signup form .forgot-pass {
+  margin: 40px auto 0;
+  display: block;
+}
+.signup form .backTOSignIn {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #016a78;
+  margin: 0 auto;
+  display: block;
+  margin-top: 11.5px;
+}
+.signup .forgotForm {
+  max-width: 380px;
+  margin: 0 auto;
+}
+
+.signup .forgotForm .desc {
+  line-height: 21px;
+  font-size: 13px;
+}
+
+.signup .emailValidation .forgot-pass {
+  margin: 11px auto 0;
+}
+.signup .emailValidation .heading {
+  line-height: 41px;
+}
+.signup .emailValidation input {
+  width: 64px;
+  padding: 20px 24px;
+  text-align: center;
+}
+
+/* signup form */

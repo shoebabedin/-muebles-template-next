@@ -1,0 +1,32 @@
+/* Option part */
+.option_part {
+  background: #ebf0f1;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.option_part .provide_best_bg {
+  width: calc(100% - 15%);
+  margin: 0 auto;
+}
+.option_part .number {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: var(--Text);
+}
+.option_part .ttl_desc h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  color: var(--Text);
+}
+.option_part .ttl_desc p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--Text);
+  opacity: 0.6;
+  margin-bottom: 0px;
+}
+
+/* Option part */

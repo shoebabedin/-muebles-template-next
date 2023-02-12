@@ -1,0 +1,151 @@
+/* comming soon */
+.comming_soon {
+  width: calc(100vw - 8rem);
+  height: calc(100vh - 0rem);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Orbitron", sans-serif;
+}
+.comming_soon h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #38383e;
+  margin-bottom: 40px;
+}
+.comming_soon #countdown_dashboard .flip-countdown {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px;
+}
+.comming_soon #countdown_dashboard .flip-countdown .flip-countdown-piece {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.comming_soon
+  #countdown_dashboard
+  .flip-countdown
+  .flip-countdown-piece:nth-child(1),
+.comming_soon
+  #countdown_dashboard
+  .flip-countdown
+  .flip-countdown-piece:nth-child(2) {
+  display: none;
+}
+.comming_soon #countdown_dashboard .flip-countdown .flip-countdown-title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+  text-transform: capitalize;
+  color: #222329;
+}
+.flip-countdown {
+  font-family: "Orbitron", sans-serif !important;
+}
+.flip-countdown .flip-countdown-piece .flip-countdown-card {
+  align-items: center;
+  gap: 10px;
+}
+.flip-countdown .flip-countdown-piece .flip-countdown-card .card__top {
+  color: #38383e !important;
+}
+.flip-countdown
+  .flip-countdown-piece
+  .flip-countdown-card
+  .flip-countdown-card-sec {
+  border: 0.5px solid rgba(56, 56, 62, 0.3);
+  font-weight: 400;
+  font-size: 96px !important;
+  margin: 0px !important;
+  text-shadow: 1px 1px 1px #0a0a0a !important;
+  border-radius: 4px !important;
+  -webkit-border-radius: 4px !important;
+  -moz-border-radius: 4px !important;
+  -ms-border-radius: 4px !important;
+  -o-border-radius: 4px !important;
+}
+
+.flip-countdown
+  .flip-countdown-piece
+  .flip-countdown-card
+  .flip-countdown-card-sec
+  .card__top,
+.flip-countdown
+  .flip-countdown-piece
+  .flip-countdown-card
+  .flip-countdown-card-sec
+  .card__bottom,
+.flip-countdown
+  .flip-countdown-piece
+  .flip-countdown-card
+  .flip-countdown-card-sec
+  .card__back::before,
+.flip-countdown
+  .flip-countdown-piece
+  .flip-countdown-card
+  .flip-countdown-card-sec
+  .card__back::after {
+  min-width: 100px;
+  font-size: 96px;
+  color: #38383e !important;
+}
+/* ------------------------------------------ */
+/* .comming_soon .dash {
+  margin-left: 10px;
+}
+.comming_soon .dash .digit-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.comming_soon .dash .digit {
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 124px;
+  color: #38383e;
+  min-width: 100px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  text-shadow: 1px 1px 1px #0a0a0a;
+}
+
+.comming_soon .dash_title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+  text-transform: capitalize;
+  color: #222329;
+  bottom: -70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.comming_soon .dash,
+.comming_soon .dash .digit {
+  position: relative;
+}
+
+.comming_soon .dash_title {
+  position: absolute;
+  display: block;
+  text-transform: uppercase;
+}
+
+.comming_soon .dash .digit {
+  text-align: center;
+  background: transparent;
+  border: 0.5px solid rgba(56, 56, 62, 0.3);
+  border-radius: 5px;
+} */
+/* comming soon */

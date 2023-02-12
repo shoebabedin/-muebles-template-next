@@ -1,0 +1,34 @@
+[
+  {
+    "id": 0,
+    "img": "item1",
+    "category": "sofa",
+    "name": "Muebles Sofa - Blue Performance Fabric",
+    "price": "1198",
+    "discountPrice": "700"
+  },
+  {
+    "id": 1,
+    "img": "item2",
+    "category": "sofa",
+    "name": "Muebles Sofa - Blue Performance Fabric",
+    "price": "1198",
+    "discountPrice": "700"
+  },
+  {
+    "id": 2,
+    "img": "item3",
+    "category": "sofa",
+    "name": "Muebles Sofa - Blue Performance Fabric",
+    "price": "1198",
+    "discountPrice": "700"
+  },
+  {
+    "id": 3,
+    "img": "item4",
+    "category": "sofa",
+    "name": "Muebles Sofa - Blue Performance Fabric",
+    "price": "1198",
+    "discountPrice": "700"
+  }
+]

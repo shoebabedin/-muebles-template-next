@@ -1,0 +1,183 @@
+/* flash sell */
+.flash_sell {
+  margin-bottom: 40px;
+}
+.flash_sell .heading {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: var(--Text);
+}
+.flash_sell .heading span i {
+  color: #016a78;
+}
+/* count down design */
+.flash_sell .flip-countdown {
+  font-family: "Raleway", sans-serif !important;
+}
+.flash_sell .timing #countdown_dashboard {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  margin-bottom: 40px;
+}
+.flash_sell .timing #countdown_dashboard .flip-countdown {
+  margin: 0 auto 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.flash_sell .flip-countdown .flip-countdown-piece {
+  display: flex;
+  align-items: baseline;
+  gap: 0;
+}
+.flash_sell
+  #countdown_dashboard
+  .flip-countdown
+  .flip-countdown-piece:nth-child(1),
+.flash_sell
+  #countdown_dashboard
+  .flip-countdown
+  .flip-countdown-piece:nth-child(2) {
+  display: none;
+}
+/* .flash_sell .timing #countdown_dashboard .dash {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+} */
+/* .flash_sell .timing #countdown_dashboard .dash .digit-box {
+  display: flex;
+  align-items: center;
+} */
+/* .flash_sell .timing #countdown_dashboard .dash .digit-box .digit {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--flash-sell);
+} */
+/* .flash_sell .timing #countdown_dashboard .dash .digit-box .digit {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--flash-sell);
+} */
+.flash_sell #countdown_dashboard .flip-countdown .flip-countdown-title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--Text);
+  opacity: 0.6;
+}
+.flash_sell
+  .flip-countdown
+  .flip-countdown-piece
+  .flip-countdown-card
+  .flip-countdown-card-sec {
+  font-weight: 700;
+  font-size: 20px !important;
+  line-height: 30px;
+  color: var(--flash-sell);
+  border: 0;
+  margin: 0px !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+  border-radius: 0px !important;
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  -ms-border-radius: 0px !important;
+  -o-border-radius: 0px !important;
+}
+.flash_sell
+  .flip-countdown
+  .flip-countdown-piece
+  .flip-countdown-card
+  .flip-countdown-card-sec
+  .card__top,
+.flash_sell
+  .flip-countdown
+  .flip-countdown-piece
+  .flip-countdown-card
+  .flip-countdown-card-sec
+  .card__bottom,
+.flash_sell
+  .flip-countdown
+  .flip-countdown-piece
+  .flip-countdown-card
+  .flip-countdown-card-sec
+  .card__back::before,
+.flash_sell
+  .flip-countdown
+  .flip-countdown-piece
+  .flip-countdown-card
+  .flip-countdown-card-sec
+  .card__back::after {
+  min-width: auto !important;
+  font-weight: 700 !important;
+  font-size: 20px !important;
+  line-height: 30px !important;
+  color: var(--flash-sell) !important;
+  background: #fff;
+  height: 13px;
+}
+.flash_sell
+  .flip-countdown
+  .flip-countdown-piece
+  .flip-countdown-card
+  .flip-countdown-card-sec
+  .card__top {
+  border: 0px;
+}
+.flash_sell .flip-countdown .flip-countdown-piece .flip-countdown-card {
+  gap: 0;
+}
+/* .flash_sell .timing #countdown_dashboard .dash .dash_title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--Text);
+  opacity: 0.6;
+} */
+
+/* count down design */
+.flash_sell .image {
+  background-color: var(--cart-bg);
+  padding: 90px 45px;
+  position: relative;
+}
+.flash_sell .image span {
+  position: absolute;
+  top: 3%;
+  right: 5%;
+}
+.flash_sell .image span i {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--flash-sell);
+}
+.flash_sell .col-lg-3 h4 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--Text);
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+.flash_sell .col-lg-3 p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--search-text);
+}
+.flash_sell .col-lg-3 .price {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.flash_sell .col-lg-3 .price .update_price {
+  color: var(--Primary);
+}
+/* flash sell */

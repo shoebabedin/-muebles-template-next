@@ -1,0 +1,82 @@
+/* navbar */
+#top_navbar .navbar {
+  box-shadow: 0px 4px 16px rgba(1, 106, 120, 0.08);
+}
+#top_navbar .navbar .search input {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--search-text);
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 0px;
+  background-color: var(--search);
+}
+#top_navbar .navbar .search.mob_nav i {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 21px;
+  color: var(--Primary);
+  border: 0px;
+}
+#top_navbar .navbar .search input:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+#top_navbar .navbar .navbar-nav .nav-item i {
+  color: var(--Text);
+  font-weight: 500;
+  font-size: 20px;
+}
+#top_navbar .navbar .col-lg-12 {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+#top_navbar .navbar .col-lg-12 .desktop .navbar-nav .nav-item .nav-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--Text);
+}
+#top_navbar .navbar .col-lg-12 .desktop .navbar-nav .nav-item.active .nav-link {
+  color: var(--Primary);
+}
+#top_navbar .navbar .col-lg-12 .desktop .navbar-nav .nav-item .nav-link:hover,
+#top_navbar .navbar .col-lg-12 .desktop .navbar-nav .nav-item.active .nav-link {
+  color: var(--Primary);
+}
+#top_navbar .navbar .col-lg-3 .mob_nav .navbar-nav {
+  gap: 64px;
+}
+#top_navbar .navbar .col-lg-3 .mob_nav .navbar-nav .nav-item .nav-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--Text);
+}
+#top_navbar .navbar .col-lg-3 .mob_nav .navbar-nav .nav-item.active .nav-link {
+  color: var(--Primary);
+}
+.navbar .navbar-toggler {
+  border: 0;
+  position: relative;
+  padding: 0px;
+}
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar .navbar-toggler .hamburger-icon div {
+  background-color: var(--Primary);
+}
+.navbar .navbar-toggler .hamburger-icon div.icon-1,
+.navbar .navbar-toggler .hamburger-icon div.icon-3 {
+  width: 30%;
+  left: 37%;
+}
+.navbar .navbar-toggler .hamburger-icon div.icon-1.a,
+.navbar .navbar-toggler .hamburger-icon div.icon-3.c {
+  width: 30%;
+  left: 37%;
+}
+/* navbar */

@@ -1,0 +1,35 @@
+/* Categories Highlights */
+.categories_highlights {
+  margin-bottom: 80px;
+}
+
+.categories_highlights .categories_item .image {
+  position: relative;
+}
+.categories_highlights .categories_item .image img {
+  min-height: 320px;
+  max-height: 320px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.categories_highlights .categories_item .image .overlay {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}
+.categories_highlights .categories_item .image .overlay h4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--Background-Color);
+}
+.categories_highlights .categories_item .image .overlay p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--Background-Color);
+  max-width: calc(100% - 4rem);
+}
+
+/* Categories Highlights */

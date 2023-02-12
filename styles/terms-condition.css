@@ -1,0 +1,74 @@
+/* terms & condition */
+.terms_condition_hero {
+  background: #ebf0f1;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.terms_condition_hero .heading {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 96px;
+  color: #38383e;
+  text-transform: capitalize;
+}
+.terms_condition_hero .version {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #77787c;
+}
+.terms_condition_hero .lastUpdate {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #77787c;
+}
+.terms_condition_hero .replaceVersion {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #77787c;
+}
+.terms_condition_hero .replaceVersion a {
+  color: var(--Primary);
+}
+.terms_condition_page ul li {
+  border-left: 3px solid #ededed;
+  padding-left: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.terms_condition_page ul li.active {
+  border-left: 3px solid #1a7885;
+  padding-left: 10px;
+}
+.terms_condition_page ul li a {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #77787c;
+}
+.terms_condition_page ul li.active a {
+  color: var(--Secondary);
+}
+.terms_condition_page .terms_condition_page_items {
+  margin-bottom: 44px;
+}
+.terms_condition_page .terms_condition_page_items h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #222329;
+}
+.terms_condition_page .terms_condition_page_items p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #38383e;
+  opacity: 0.6;
+}
+
+/* terms & condition */

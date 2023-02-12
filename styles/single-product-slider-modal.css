@@ -1,0 +1,27 @@
+/*single product slider modal */
+#staticBackdrop .modal-header button {
+  margin: -0.5rem auto -0.5rem -0.5rem;
+  border: 0px;
+  border-radius: 50%;
+}
+#staticBackdrop .product-images {
+  max-width: 924px;
+  margin: 0 auto;
+}
+#staticBackdrop .product-images .product-gallery {
+  max-height: 650px;
+  height: 100%;
+}
+#staticBackdrop .product-images .product-thumb .swiper-slide {
+  border: 1px solid rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+
+#staticBackdrop
+  .product-images
+  .product-thumb
+  .swiper-slide.swiper-slide-active {
+  border: 1px solid rgba(0, 0, 0, 1);
+}
+
+/*single product slider modal */
