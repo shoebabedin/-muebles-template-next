@@ -24,7 +24,7 @@ const CartCanvas = ({ handleShow, show, setShow }) => {
         <div className="img">
           <img
             className="img-fluid"
-            src={("/assets/images/cart-item/item.png")}
+            src={("/assets/images/cart-item/item.webp")}
             alt=""
           />
         </div>

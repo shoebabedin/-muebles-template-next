@@ -1,4 +1,3 @@
-import React from "react";
 
 const StepThree = () => {
   return (
@@ -20,7 +19,7 @@ const StepThree = () => {
                     <label for="paypal">Payment with paypal</label>
                   </div>
                   <span>
-                    <img src="./../assets/images/payment/paypal.png" alt="" />
+                    <img src="./../assets/images/payment/paypal.webp" alt="" />
                   </span>
                 </div>
                 <div className="address_info">
@@ -45,10 +44,10 @@ const StepThree = () => {
                   </div>
                   <span>
                     <img
-                      src="./../assets/images/payment/mastercard.png"
+                      src="./../assets/images/payment/mastercard.webp"
                       alt=""
                     />
-                    <img src="./../assets/images/payment/visa.png" alt="" />
+                    <img src="./../assets/images/payment/visa.webp" alt="" />
                   </span>
                 </div>
                 <div className="address_info">

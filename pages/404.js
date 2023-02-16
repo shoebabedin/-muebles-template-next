@@ -8,7 +8,7 @@ const NoPage = () => {
         <div className="img">
           <img
             className="img-fluid"
-            src={("/assets/images/4O4/error.png")}
+            src={("/assets/images/4O4/error.webp")}
             alt=""
           />
         </div>

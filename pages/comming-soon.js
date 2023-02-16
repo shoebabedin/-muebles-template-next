@@ -8,7 +8,7 @@ const CommingSoon = () => {
           <div className="col-12 col-lg-4 order-2 order-lg-1">
             <img
               className="img-fluid"
-              src={("/assets/images/comming-soon/coming-soon.png")}
+              src={("/assets/images/comming-soon/coming-soon.webp")}
               alt=""
             />
           </div>

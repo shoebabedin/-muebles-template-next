@@ -1,11 +1,11 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 const Footer = () => {
-  // const location = useLocation();
+  const location = useRouter();
+  const locationSplit = location.pathname;
+ console.log(locationSplit);
 
-  // const str = document.location.toString();
-  // const locationSplit = str.split("/");
-  // const bradecumName = locationSplit[3];
   return (
     <>
       <section className="footer pt-5">
@@ -26,31 +26,31 @@ const Footer = () => {
               <ul className="payment">
                 <li>
                   <img
-                    src={("/assets/images/footer/visa.png")}
+                    src={("/assets/images/footer/visa.webp")}
                     alt=""
                   />
                 </li>
                 <li>
                   <img
-                    src={("/assets/images/footer/american_express.png")}
+                    src={("/assets/images/footer/american-express.webp")}
                     alt=""
                   />
                 </li>
                 <li>
                   <img
-                    src={("/assets/images/footer/mastercard.png")}
+                    src={("/assets/images/footer/mastercard.webp")}
                     alt=""
                   />
                 </li>
                 <li>
                   <img
-                    src={("/assets/images/footer/paypal.png")}
+                    src={("/assets/images/footer/paypal.webp")}
                     alt=""
                   />
                 </li>
                 <li>
                   <img
-                    src={("/assets/images/footer/stripe.png")}
+                    src={("/assets/images/footer/stripe.webp")}
                     alt=""
                   />
                 </li>
@@ -59,31 +59,31 @@ const Footer = () => {
             <div className="col-lg-2 col-md-6 col-12">
               <h4 className="heading">Company</h4>
               <ul className="footer_link">
-                <li>
+                <li className={locationSplit === "/" ? 'active' : ''}>
                   <Link href="/">Home</Link>
                 </li>
-                <li>
+                <li className={locationSplit === "/about-us" ? 'active' : ''}>
                   <Link href="about-us">About Us</Link>
                 </li>
-                <li>
+                <li className={locationSplit === "/shop-all-product" ? 'active' : ''}>
                   <Link href="shop-all-product">Shop</Link>
                 </li>
-                <li>
+                <li className={locationSplit === "/login" ? 'active' : ''}>
                   <Link href="/login">Login</Link>
                 </li>
-                <li>
+                <li className={locationSplit === "/signup" ? 'active' : ''}>
                   <Link href="/signup">Sign Up</Link>
                 </li>
-                <li>
+                <li className={locationSplit === "/verify-email" ? 'active' : ''}>
                   <Link href="/verify-email">Verify Email</Link>
                 </li>
-                <li>
+                <li className={locationSplit === "/forgot-password" ? 'active' : ''}>
                   <Link href="/forgot-password">Forgot Password</Link>
                 </li>
-                <li>
+                <li className={locationSplit === "/comming-soon" ? 'active' : ''}>
                   <Link href="/comming-soon">Comming Soon</Link>
                 </li>
-                <li>
+                <li className={locationSplit === "/404" ? 'active' : ''}>
                   <Link href="404">4O4 - Page</Link>
                 </li>
               </ul>
@@ -91,19 +91,19 @@ const Footer = () => {
             <div className="col-lg-2 col-md-6 col-12">
               <h4 className="heading">Terms of services</h4>
               <ul className="footer_link">
-                <li>
+                <li className={locationSplit === "/terms-condition" ? 'active' : ''}>
                   <Link href="terms-condition">Terms & Conditions</Link>
                 </li>
-                <li>
+                <li className={locationSplit === "/privacy-policy" ? 'active' : ''}>
                   <Link href="privacy-policy">Privacy Policy</Link>
                 </li>
-                <li>
+                <li className={locationSplit === "/payment-policy" ? 'active' : ''}>
                   <Link href="payment-policy">Payment Policy</Link>
                 </li>
-                <li>
+                <li className={locationSplit === "/exchange-return" ? 'active' : ''}>
                   <Link href="exchange-return">Exchange & Return</Link>
                 </li>
-                <li>
+                <li className={locationSplit === "/shipping-policy" ? 'active' : ''}>
                   <Link href="shipping-policy">Shipping Policy</Link>
                 </li>
               </ul>
@@ -111,19 +111,19 @@ const Footer = () => {
             <div className="col-lg-2 col-md-6 col-12">
               <h4 className="heading">Featured products</h4>
               <ul className="footer_link">
-                <li>
+                <li className={locationSplit === "/shop-all-product" ? 'active' : ''}>
                   <Link href="shop-all-product">Sofa</Link>
                 </li>
-                <li>
+                <li className={locationSplit === "/shop-all-product" ? 'active' : ''}>
                   <Link href="shop-all-product">Couch</Link>
                 </li>
-                <li>
+                <li className={locationSplit === "/shop-all-product" ? 'active' : ''}>
                   <Link href="shop-all-product">Bed</Link>
                 </li>
-                <li>
+                <li className={locationSplit === "/shop-all-product" ? 'active' : ''}>
                   <Link href="shop-all-product">Wall Clock</Link>
                 </li>
-                <li>
+                <li className={locationSplit === "/shop-all-product" ? 'active' : ''}>
                   <Link href="shop-all-product">Chair</Link>
                 </li>
               </ul>

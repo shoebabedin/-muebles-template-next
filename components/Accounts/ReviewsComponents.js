@@ -14,7 +14,7 @@ const ReviewsComponents = () => {
                   <div className="img_price d-flex align-items-start justify-content-between">
                     <div className="img">
                       <img
-                        src={("/assets/images/cart-item/item.png")}
+                        src={("/assets/images/cart-item/item.webp")}
                         alt=""
                       />
                     </div>
@@ -62,7 +62,7 @@ const ReviewsComponents = () => {
                   <div className="img">
                     <img
                       className="img-fluid"
-                      src={("/assets/images/cart-item/item.png")}
+                      src={("/assets/images/cart-item/item.webp")}
                       alt=""
                     />
                   </div>
@@ -91,7 +91,7 @@ const ReviewsComponents = () => {
                   <div className="img">
                     <img
                       className="img-fluid"
-                      src={("/assets/images/cart-item/item1.png")}
+                      src={("/assets/images/cart-item/item1.webp")}
                       alt=""
                     />
                   </div>

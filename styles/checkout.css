@@ -487,8 +487,8 @@
   .address_name
   .date
   [type="date"] {
-  /* background: #fff url("./../images/date.png") 97% 50% no-repeat; */
-  background: #fff url("/public/assets/images/date.png") 97% 50% no-repeat;
+  /* background: #fff url("./../images/date.webp") 97% 50% no-repeat; */
+  background: #fff url("/public/assets/images/date.webp") 97% 50% no-repeat;
 }
 .checkout_process_modal
   .shipping_estimate_delivery

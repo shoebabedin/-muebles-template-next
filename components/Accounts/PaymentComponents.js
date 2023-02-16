@@ -24,7 +24,7 @@ const PaymentComponents = () => {
         <div className="address_name position-relative">
           <div>
             <img
-              src={(`/assets/images/payment/${item.img}.png`)}
+              src={(`/assets/images/payment/${item.img}.webp`)}
               alt=""
             />
             {item.default && <span className="default">Default</span>}
@@ -140,7 +140,7 @@ const PaymentComponents = () => {
               </div>
               <span>
                 <img
-                  src={("/assets/images/payment/paypal.png")}
+                  src={("/assets/images/payment/paypal.webp")}
                   alt=""
                 />
               </span>
@@ -169,11 +169,11 @@ const PaymentComponents = () => {
               </div>
               <span>
                 <img
-                  src={("/assets/images/payment/mastercard.png")}
+                  src={("/assets/images/payment/mastercard.webp")}
                   alt=""
                 />
                 <img
-                  src={("/assets/images/payment/visa.png")}
+                  src={("/assets/images/payment/visa.webp")}
                   alt=""
                 />
               </span>

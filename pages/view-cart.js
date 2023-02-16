@@ -23,7 +23,7 @@ const ViewCart = () => {
         <div className="img">
           <img
             className="img-fluid"
-            src={("/assets/images/cart-item/item.png")}
+            src={("/assets/images/cart-item/item.webp")}
             alt=""
           />
         </div>
@@ -99,7 +99,7 @@ const ViewCart = () => {
                 </svg>
               </button>
               <Link className="navbar-brand" href="/">
-                <img src={("/assets/images/logo/logo.png")} alt="" />
+                <img src={("/assets/images/logo/logo.webp")} alt="" />
               </Link>
             </div>
           </div>

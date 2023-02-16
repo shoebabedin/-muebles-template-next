@@ -721,140 +721,140 @@ const FilterCanvas = ({show, setShow}) => {
                         <li className="product-texture-item active">
                           <img
                             className="img-fluid"
-                            src={("/assets/images/texture/item1.png")}
+                            src={("/assets/images/texture/item1.webp")}
                             alt=""
                           />
                         </li>
                         <li className="product-texture-item">
                           <img
                             className="img-fluid"
-                            src={("/assets/images/texture/item2.png")}
+                            src={("/assets/images/texture/item2.webp")}
                             alt=""
                           />
                         </li>
                         <li className="product-texture-item">
                           <img
                             className="img-fluid"
-                            src={("/assets/images/texture/item3.png")}
+                            src={("/assets/images/texture/item3.webp")}
                             alt=""
                           />
                         </li>
                         <li className="product-texture-item">
                           <img
                             className="img-fluid"
-                            src={("/assets/images/texture/item4.png")}
+                            src={("/assets/images/texture/item4.webp")}
                             alt=""
                           />
                         </li>
                         <li className="product-texture-item">
                           <img
                             className="img-fluid"
-                            src={("/assets/images/texture/item5.png")}
+                            src={("/assets/images/texture/item5.webp")}
                             alt=""
                           />
                         </li>
                         <li className="product-texture-item">
                           <img
                             className="img-fluid"
-                            src={("/assets/images/texture/item6.png")}
+                            src={("/assets/images/texture/item6.webp")}
                             alt=""
                           />
                         </li>
                         <li className="product-texture-item">
                           <img
                             className="img-fluid"
-                            src={("/assets/images/texture/item7.png")}
+                            src={("/assets/images/texture/item7.webp")}
                             alt=""
                           />
                         </li>
                         <li className="product-texture-item">
                           <img
                             className="img-fluid"
-                            src={("/assets/images/texture/item8.png")}
+                            src={("/assets/images/texture/item8.webp")}
                             alt=""
                           />
                         </li>
                         <li className="product-texture-item">
                           <img
                             className="img-fluid"
-                            src={("/assets/images/texture/item9.png")}
+                            src={("/assets/images/texture/item9.webp")}
                             alt=""
                           />
                         </li>
                         <li className="product-texture-item">
                           <img
                             className="img-fluid"
-                            src={("/assets/images/texture/item10.png")}
+                            src={("/assets/images/texture/item10.webp")}
                             alt=""
                           />
                         </li>
                         <li className="product-texture-item">
                           <img
                             className="img-fluid"
-                            src={("/assets/images/texture/item11.png")}
+                            src={("/assets/images/texture/item11.webp")}
                             alt=""
                           />
                         </li>
                         <li className="product-texture-item">
                           <img
                             className="img-fluid"
-                            src={("/assets/images/texture/item12.png")}
+                            src={("/assets/images/texture/item12.webp")}
                             alt=""
                           />
                         </li>
                         <li className="product-texture-item">
                           <img
                             className="img-fluid"
-                            src={("/assets/images/texture/item13.png")}
+                            src={("/assets/images/texture/item13.webp")}
                             alt=""
                           />
                         </li>
                         <li className="product-texture-item">
                           <img
                             className="img-fluid"
-                            src={("/assets/images/texture/item14.png")}
+                            src={("/assets/images/texture/item14.webp")}
                             alt=""
                           />
                         </li>
                         <li className="product-texture-item">
                           <img
                             className="img-fluid"
-                            src={("/assets/images/texture/item15.png")}
+                            src={("/assets/images/texture/item15.webp")}
                             alt=""
                           />
                         </li>
                         <li className="product-texture-item">
                           <img
                             className="img-fluid"
-                            src={("/assets/images/texture/item16.png")}
+                            src={("/assets/images/texture/item16.webp")}
                             alt=""
                           />
                         </li>
                         <li className="product-texture-item">
                           <img
                             className="img-fluid"
-                            src={("/assets/images/texture/item17.png")}
+                            src={("/assets/images/texture/item17.webp")}
                             alt=""
                           />
                         </li>
                         <li className="product-texture-item">
                           <img
                             className="img-fluid"
-                            src={("/assets/images/texture/item18.png")}
+                            src={("/assets/images/texture/item18.webp")}
                             alt=""
                           />
                         </li>
                         <li className="product-texture-item">
                           <img
                             className="img-fluid"
-                            src={("/assets/images/texture/item19.png")}
+                            src={("/assets/images/texture/item19.webp")}
                             alt=""
                           />
                         </li>
                         <li className="product-texture-item">
                           <img
                             className="img-fluid"
-                            src={("/assets/images/texture/item20.png")}
+                            src={("/assets/images/texture/item20.webp")}
                             alt=""
                           />
                         </li>

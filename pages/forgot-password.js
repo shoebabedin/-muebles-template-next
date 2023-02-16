@@ -8,7 +8,7 @@ const ForgotPassword = () => {
           <div className="col-12">
             <div className="modal-header border-0 mt-3">
               <Link className="navbar-brand mx-auto" href="/">
-                <img src={("/assets/images/logo/logo.png")} alt="" />
+                <img src={("/assets/images/logo/logo.webp")} alt="" />
               </Link>
             </div>
           </div>
@@ -19,7 +19,7 @@ const ForgotPassword = () => {
           <div className="col-lg-6 desktop">
             <img
               className="img-fluid"
-              src={("/assets/images/forgot-password/forgotPass.png")}
+              src={("/assets/images/forgot-password/forgotPass.webp")}
               alt=""
             />
           </div>

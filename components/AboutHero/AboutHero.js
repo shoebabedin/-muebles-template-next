@@ -36,7 +36,7 @@ const AboutHero = () => {
             <div className="col-lg-5">
               <img
                 className="img-fluid about_hero_img"
-                src={("/assets/images/about/about.png")}
+                src={("/assets/images/about/about.webp")}
                 alt=""
               />
             </div>

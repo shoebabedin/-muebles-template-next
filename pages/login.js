@@ -14,7 +14,7 @@ const Login = () => {
           <div className="col-12">
             <div className="modal-header border-0  mt-3">
               <Link className="navbar-brand mx-auto" href="/">
-                <img src={("/assets/images/logo/logo.png")} alt="" />
+                <img src={("/assets/images/logo/logo.webp")} alt="" />
               </Link>
             </div>
           </div>
@@ -25,7 +25,7 @@ const Login = () => {
           <div className="col-lg-6 desktop">
             <img
               className="img-fluid"
-              src={("/assets/images/signin/signin.png")}
+              src={("/assets/images/signin/signin.webp")}
               alt=""
             />
           </div>
@@ -34,14 +34,14 @@ const Login = () => {
             <div className="auth_btn">
               <button className="auth_google">
                 <img
-                  src={("/assets/images/signup/google.png")}
+                  src={("/assets/images/signup/google.webp")}
                   alt=""
                 />
                 Sign Up with Google
               </button>
               <button className="auth_facebook">
                 <img
-                  src={("/assets/images/signup/facebook.png")}
+                  src={("/assets/images/signup/facebook.webp")}
                   alt=""
                 />
                 Sign Up with Facebook

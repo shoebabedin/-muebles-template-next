@@ -2,7 +2,7 @@ import Link from "next/link";
 import { useState } from "react";
 
 const ProfileSideNav = ({ active }) => {
-  const [userImg, setUserImg] = useState("/assets/images/profile/profile.png");
+  const [userImg, setUserImg] = useState("/assets/images/profile/profile.webp");
   const [UserName, setUserName] = useState("User Name");
   const [UserEmail, setUserEmail] = useState("example@email.com");
   return (

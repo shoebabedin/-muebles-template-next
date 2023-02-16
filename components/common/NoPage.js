@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 const NoPage = () => {
@@ -9,7 +8,7 @@ const NoPage = () => {
           <div className="img">
             <img
               className="img-fluid"
-              src={require("./../../assets/images/4O4/error.png")}
+              src={require("./../../assets/images/4O4/error.webp")}
               alt=""
             />
           </div>

@@ -16,7 +16,7 @@ const Products = ({ classProps, data }) => {
           </span>
           <img
             className="img-fluid"
-            src={(`/assets/images/all-products/${img}.png`)}
+            src={(`/assets/images/all-products/${img}.webp`)}
             alt=""
           />
         </div>

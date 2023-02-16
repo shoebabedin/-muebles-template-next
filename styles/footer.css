@@ -76,6 +76,11 @@
   color: var(--Primary);
   transition: all linear 0.3s;
 }
+.footer .col-lg-2 .supprt_link li.active a,
+.footer .col-lg-2 .footer_link li.active a {
+  color: var(--Primary);
+  transition: all linear 0.3s;
+}
 .footer .col-lg-2 .social_link {
   display: flex;
   align-items: center;

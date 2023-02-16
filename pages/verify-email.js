@@ -42,7 +42,7 @@ const VerifyEmail = () => {
               <Link className="navbar-brand mx-auto" href="/">
                 <img
                   className="img-fluid"
-                  src={("/assets/images/logo/logo.png")}
+                  src={("/assets/images/logo/logo.webp")}
                   alt=""
                 />
               </Link>
@@ -55,7 +55,7 @@ const VerifyEmail = () => {
           <div className="col-lg-6 desktop">
             <img
               className="img-fluid"
-              src={("/assets/images/forgot-password/forgotPass.png")}
+              src={("/assets/images/forgot-password/forgotPass.webp")}
               alt=""
             />
           </div>

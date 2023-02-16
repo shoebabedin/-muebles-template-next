@@ -45,7 +45,7 @@ const CheckOutProcess = () => {
 
                 <Link className="navbar-brand" href="/">
                   <img
-                    src={("/assets/images/logo/logo.png")}
+                    src={("/assets/images/logo/logo.webp")}
                     alt=""
                   />
                 </Link>
@@ -608,7 +608,7 @@ const CheckOutProcess = () => {
                           </div>
                           <span>
                             <img
-                              src={("/assets/images/payment/paypal.png")}
+                              src={("/assets/images/payment/paypal.webp")}
                               alt=""
                             />
                           </span>
@@ -637,11 +637,11 @@ const CheckOutProcess = () => {
                           </div>
                           <span>
                             <img
-                              src={("/assets/images/payment/mastercard.png")}
+                              src={("/assets/images/payment/mastercard.webp")}
                               alt=""
                             />
                             <img
-                              src={("/assets/images/payment/visa.png")}
+                              src={("/assets/images/payment/visa.webp")}
                               alt=""
                             />
                           </span>

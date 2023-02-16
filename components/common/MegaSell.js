@@ -9,7 +9,7 @@ const MegaSell = () => {
               <div className="image">
                 <img
                   className="img-fluid"
-                  src={("/assets/images/mega-sell/mega-sell.png")}
+                  src={("/assets/images/mega-sell/mega-sell.webp")}
                   alt=""
                 />
                 <div className="overlay">

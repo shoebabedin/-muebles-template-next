@@ -87,42 +87,42 @@ const SingleProduct = () => {
                     <div className="product_hero_slider_item">
                       <img
                         className="img-fluid"
-                        src={"/assets/images/product-slider/item1.png"}
+                        src={"/assets/images/product-slider/item1.webp"}
                         alt=""
                       />
                     </div>
                     <div className="product_hero_slider_item">
                       <img
                         className="img-fluid"
-                        src={"/assets/images/product-slider/item2.png"}
+                        src={"/assets/images/product-slider/item2.webp"}
                         alt=""
                       />
                     </div>
                     <div className="product_hero_slider_item">
                       <img
                         className="img-fluid"
-                        src={"/assets/images/product-slider/item3.png"}
+                        src={"/assets/images/product-slider/item3.webp"}
                         alt=""
                       />
                     </div>
                     <div className="product_hero_slider_item">
                       <img
                         className="img-fluid"
-                        src={"/assets/images/product-slider/item4.png"}
+                        src={"/assets/images/product-slider/item4.webp"}
                         alt=""
                       />
                     </div>
                     <div className="product_hero_slider_item">
                       <img
                         className="img-fluid"
-                        src={"/assets/images/product-slider/item5.png"}
+                        src={"/assets/images/product-slider/item5.webp"}
                         alt=""
                       />
                     </div>
                     <div className="product_hero_slider_item">
                       <img
                         className="img-fluid"
-                        src={"/assets/images/product-slider/item6.png"}
+                        src={"/assets/images/product-slider/item6.webp"}
                         alt=""
                       />
                     </div>
@@ -139,42 +139,42 @@ const SingleProduct = () => {
                     <div className="product_hero_slider_item">
                       <img
                         className="img-fluid"
-                        src={"/assets/images/product-slider/item1.png"}
+                        src={"/assets/images/product-slider/item1.webp"}
                         alt=""
                       />
                     </div>
                     <div className="product_hero_slider_item">
                       <img
                         className="img-fluid"
-                        src={"/assets/images/product-slider/item2.png"}
+                        src={"/assets/images/product-slider/item2.webp"}
                         alt=""
                       />
                     </div>
                     <div className="product_hero_slider_item">
                       <img
                         className="img-fluid"
-                        src={"/assets/images/product-slider/item3.png"}
+                        src={"/assets/images/product-slider/item3.webp"}
                         alt=""
                       />
                     </div>
                     <div className="product_hero_slider_item">
                       <img
                         className="img-fluid"
-                        src={"/assets/images/product-slider/item4.png"}
+                        src={"/assets/images/product-slider/item4.webp"}
                         alt=""
                       />
                     </div>
                     <div className="product_hero_slider_item">
                       <img
                         className="img-fluid"
-                        src={"/assets/images/product-slider/item5.png"}
+                        src={"/assets/images/product-slider/item5.webp"}
                         alt=""
                       />
                     </div>
                     <div className="product_hero_slider_item">
                       <img
                         className="img-fluid"
-                        src={"/assets/images/product-slider/item6.png"}
+                        src={"/assets/images/product-slider/item6.webp"}
                         alt=""
                       />
                     </div>
@@ -230,7 +230,7 @@ const SingleProduct = () => {
                         >
                           <img
                             className="img-fluid"
-                            src={`/assets/images/texture/${item.img}.png`}
+                            src={`/assets/images/texture/${item.img}.webp`}
                             alt=""
                           />
                           <Check
@@ -714,28 +714,28 @@ const SingleProduct = () => {
                 <SwiperSlide>
                   <img
                     className="img-fluid"
-                    src={`/assets/images/product-slider/item1.png`}
+                    src={`/assets/images/product-slider/item1.webp`}
                     alt="Product"
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
                     className="img-fluid"
-                    src={`/assets/images/product-slider/item2.png`}
+                    src={`/assets/images/product-slider/item2.webp`}
                     alt="Product"
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
                     className="img-fluid"
-                    src={`/assets/images/product-slider/item3.png`}
+                    src={`/assets/images/product-slider/item3.webp`}
                     alt="Product"
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
                     className="img-fluid"
-                    src={`/assets/images/product-slider/item4.png`}
+                    src={`/assets/images/product-slider/item4.webp`}
                     alt="Product"
                   />
                 </SwiperSlide>
@@ -752,28 +752,28 @@ const SingleProduct = () => {
                 <SwiperSlide>
                   <img
                     className="img-fluid"
-                    src={`/assets/images/product-slider/item1.png`}
+                    src={`/assets/images/product-slider/item1.webp`}
                     alt="Product"
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
                     className="img-fluid"
-                    src={`/assets/images/product-slider/item2.png`}
+                    src={`/assets/images/product-slider/item2.webp`}
                     alt="Product"
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
                     className="img-fluid"
-                    src={`/assets/images/product-slider/item3.png`}
+                    src={`/assets/images/product-slider/item3.webp`}
                     alt="Product"
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
                     className="img-fluid"
-                    src={`/assets/images/product-slider/item4.png`}
+                    src={`/assets/images/product-slider/item4.webp`}
                     alt="Product"
                   />
                 </SwiperSlide>

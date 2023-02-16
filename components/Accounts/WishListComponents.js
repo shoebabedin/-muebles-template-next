@@ -10,7 +10,7 @@ const WishListComponents = () => {
                 <div className="img">
                   <img
                     className="img-fluid"
-                    src={("/assets/images/cart-item/item.png")}
+                    src={("/assets/images/cart-item/item.webp")}
                     alt=""
                   />
                   <span className="heartClick mob_nav">
@@ -40,7 +40,7 @@ const WishListComponents = () => {
                 <div className="img">
                   <img
                     className="img-fluid"
-                    src={("/assets/images/cart-item/item1.png")}
+                    src={("/assets/images/cart-item/item1.webp")}
                     alt=""
                   />
                   <span className="heartClick mob_nav">
@@ -69,7 +69,7 @@ const WishListComponents = () => {
                 <div className="img">
                   <img
                     className="img-fluid"
-                    src={("/assets/images/cart-item/item.png")}
+                    src={("/assets/images/cart-item/item.webp")}
                     alt=""
                   />
                   <span className="heartClick mob_nav">

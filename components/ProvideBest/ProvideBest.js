@@ -8,7 +8,7 @@ const ProvideBest = () => {
               <div className="img image">
                 <img
                   className="img-fluid"
-                  src={("/assets/images/about/provide-furniture.png")}
+                  src={("/assets/images/about/provide-furniture.webp")}
                   alt=""
                 />
               </div>

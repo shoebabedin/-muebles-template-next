@@ -18,7 +18,7 @@ const OrderComponents = () => {
                 <div className="img">
                   <img
                     className="img-fluid"
-                    src={("/assets/images/cart-item/item.png")}
+                    src={("/assets/images/cart-item/item.webp")}
                     alt=""
                   />
                 </div>
@@ -35,7 +35,7 @@ const OrderComponents = () => {
                 <div className="img">
                   <img
                     className="img-fluid"
-                    src={("/assets/images/cart-item/item1.png")}
+                    src={("/assets/images/cart-item/item1.webp")}
                     alt=""
                   />
                 </div>
@@ -80,7 +80,7 @@ const OrderComponents = () => {
               <div className="img">
                 <img
                   className="img-fluid"
-                  src={("/assets/images/cart-item/item.png")}
+                  src={("/assets/images/cart-item/item.webp")}
                   alt=""
                 />
               </div>
@@ -99,7 +99,7 @@ const OrderComponents = () => {
               <div className="img">
                 <img
                   className="img-fluid"
-                  src={("/assets/images/cart-item/item.png")}
+                  src={("/assets/images/cart-item/item.webp")}
                   alt=""
                 />
               </div>
