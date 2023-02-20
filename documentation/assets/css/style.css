@@ -1,0 +1,419 @@
+/*===========================================================
+General CSS
+=============================================================*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+:root {
+  --primary: #e85342;
+  --primary-text: #1c213c;
+  --primary-text2: #7f8395;
+  --body-text: #5c727d;
+  --body-text2: #aaacb3;
+  --white: #fff;
+  --black: #212428;
+}
+
+body {
+  width: 100%;
+  max-width: 100%;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+ul li,
+ol li {
+  list-style: none;
+}
+
+a,
+p,
+i,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-decoration: none;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: 0;
+}
+
+button {
+  outline: none;
+  border: 0;
+  cursor: pointer;
+  background: transparent;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+
+button:focus {
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+
+select,
+input {
+  border: 0;
+  outline: none;
+}
+
+a,
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+.scroll-lock {
+  overflow: hidden;
+}
+
+/*===========================================================
+custom scrollbar CSS
+=============================================================*/
+.custom-scrollbar::-webkit-scrollbar {
+  width: 3px;
+}
+
+.custom-scrollbar::-moz-scrollbar {
+  width: 3px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: #f4f4f4;
+}
+
+.custom-scrollbar::-moz-scrollbar-track {
+  background-color: #f4f4f4;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--body-text2);
+}
+
+.custom-scrollbar::-moz-scrollbar-thumb {
+  background: var(--body-text2);
+}
+
+/*===========================================================
+navigation CSS
+=============================================================*/
+.navigation {
+  width: 255px;
+  height: 100vh;
+  overflow-y: auto;
+  border-right: 1px solid var(--primary);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  background-color: var(--black);
+  -webkit-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+  -moz-transition: all linear 0.5s;
+  -ms-transition: all linear 0.5s;
+  -o-transition: all linear 0.5s;
+}
+
+.navigation::-webkit-scrollbar {
+  width: 0;
+}
+
+.navigation:hover::-webkit-scrollbar {
+  width: 3px;
+}
+
+.navigation.show {
+  left: 0;
+}
+
+.brand-icon {
+  padding: 16px;
+  margin-bottom: 32px;
+}
+
+.navigation ul li span {
+  display: block;
+  padding: 14px 16px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  color: var(--white);
+  text-transform: capitalize;
+}
+
+.navigation ul li a {
+  display: block;
+  padding: 12px 32px;
+  font-size: 16px;
+  font-weight: 300;
+  color: var(--white);
+  text-transform: capitalize;
+  border-left: 4px solid transparent;
+}
+
+.navigation ul li ul li a:hover,
+.navigation ul li ul li a.active {
+  border-color: var(--primary);
+  background-color: rgba(22, 163, 173, 0.1);
+  color: var(--primary);
+}
+
+.navigation ul li ul li a.active {
+  font-weight: 400;
+}
+
+/*===========================================================
+main-content CSS
+=============================================================*/
+.main-content {
+  width: calc(100% - 255px);
+  margin-left: 255px;
+}
+
+.title {
+  padding: 24px 24px 24px 40px;
+  background-color: #fafbfc;
+}
+
+.title h2 {
+  color: var(--black);
+  text-transform: capitalize;
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 300;
+}
+
+.content {
+  padding: 24px 24px 24px 40px;
+  margin-right: 150px;
+}
+
+.content img {
+  padding-top: 16px;
+}
+
+.content h3 {
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 400;
+  color: var(--black);
+  padding-bottom: 16px;
+}
+
+.content h4 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 300;
+  color: var(--black);
+  padding-bottom: 16px;
+}
+
+.content h5 {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  color: var(--black);
+  padding-bottom: 8px;
+}
+
+.content h5 span {
+  display: block;
+  font-size: 16px;
+}
+
+.content p {
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #46464f;
+}
+
+.content p a,
+.content p span {
+  color: var(--primary);
+  font-weight: 500;
+}
+
+.content .list-menu {
+  margin: 30px 0;
+}
+
+.content .list-menu li {
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #46464f;
+}
+
+.content .list-menu li span {
+  min-width: 80px;
+  display: inline-block;
+}
+
+.content blockquote {
+  width: 100%;
+  background-color: rgba(22, 163, 173, 0.1);
+  border-left: 4px solid var(--primary);
+  padding: 20px;
+  margin: 25px 0;
+}
+
+.installation ol {
+  padding-left: 20px;
+}
+
+.installation ol li {
+  list-style-type: decimal;
+}
+
+.feature ul,
+.pages-info ul,
+.credits ul {
+  padding-left: 20px;
+}
+
+.feature ul li,
+.pages-info ul li,
+.credits ul li {
+  list-style-type: disc;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .content {
+    margin-right: 0;
+  }
+}
+
+/*===========================================================
+mobile nav CSS
+=============================================================*/
+.overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 40;
+  -webkit-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.overlay.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.mobile-nav {
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--black);
+}
+
+.mobile-nav button {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+}
+
+@media screen and (max-width: 991px) {
+  .content {
+    margin-right: 0;
+  }
+
+  .main-content {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .navigation {
+    left: -255px;
+  }
+
+  main {
+    margin-top: 62px;
+  }
+
+  .mobile-nav {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .content,
+  .title {
+    padding: 14px 14px 14px 20px;
+  }
+
+  .title h2 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .title h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .content h4 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}

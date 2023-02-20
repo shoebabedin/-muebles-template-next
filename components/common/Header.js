@@ -24,7 +24,7 @@ const Header = (props) => {
             <div className="col-lg-3 col-md-6 col-6 py-lg-3">
               <Link className="navbar-brand me-auto" href="/">
                 <img
-                  src={("/assets/images/logo/logo.webp")}
+                  src={("/assets/images/logo/logo.png")}
                   alt=""
                 />
               </Link>

@@ -5,6 +5,7 @@ import Option from "@/components/common/Option";
 import FlashSell from "@/components/FlashSell/FlashSell";
 import LatestArrival from "@/components/LatestArrival/LatestArrival";
 import ShopPopular from "@/components/shopPopular/ShopPopular";
+import Head from "next/head";
 import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -17,6 +18,9 @@ export default function Home() {
   }, []);
   return (
     <>
+      <Head>
+        <title>Home</title>
+      </Head>
       {/* hero */}
       <HomeHero />
       {/* hero */}
