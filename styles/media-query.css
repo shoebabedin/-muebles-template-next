@@ -1,7 +1,10 @@
 /* responsive */
 @media (min-width: 1200px) and (max-width: 1650px) {
   .option_part .col {
-    flex: 1 0 30%;
+    /* flex: 1 0 30%; */
+  }
+  .option_part .provide_best_bg {
+    width: calc(100% - 0%);
   }
   .option_part .number,
   .option_part .ttl_desc h3 {
@@ -22,6 +25,9 @@
   }
 }
 @media (min-width: 993px) and (max-width: 1199px) {
+  .option_part .provide_best_bg {
+    width: calc(100% - 0%);
+  }
   .option_part .col {
     flex: 1 0 50%;
   }
